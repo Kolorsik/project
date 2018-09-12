@@ -1,0 +1,86 @@
+﻿<HTML>
+  <HEAD>
+      <style>
+          a {text-decoration: none;}
+          ul {margin: 0;
+              padding: 0;
+              list-style: none;
+          }
+          .menu a{background: green;
+              color: #fff;
+              padding: 10px;
+              display: block;
+              border: 1px solid blue;
+              transition: 0.5s all;
+          }
+          .side {
+              width: 200px;
+              margin: 20px;
+          }
+          .menu a:hover{
+              background: #666;
+          }
+          .menu_l{
+              position: relative;
+          }
+          .menu_d{
+              position: absolute;
+              width: 100%;
+              left: 100%;
+              top: -1000px;
+              opacity: 0;
+          }
+          .menu_l:hover .menu_d {
+              opacity: 1;
+              top:0;
+          }
+          .center{
+              text-align: center;
+          }
+          body {background-image: url(fon.jpg);}
+      </style>
+  </HEAD>
+<BODY>
+ <div class = "side">
+    <ul class = "menu">
+        <li class = "menu_l center"><a href = "#">Лабораторная работа 1</a>
+            <ul class = "menu_d">
+                <li><a href = "My FIrst Web-Page.html">Задание 1</a></li>
+                <li><a href = "My second Web-Page.html">Задание 2</a></li>
+            </ul>
+        </li>
+        <li class = "menu_l center"><a href = "#">Лабораторная работа 2</a>
+        <ul class = "menu_d">
+                <li><a href = "My FIrst Web-Page.html">Задание 1</a></li>
+                <li><a href = "My second Web-Page.html">Задание 2</a></li>
+            </ul>
+        </li>
+        <li class = "menu_l center"><a href = "#">Лабораторная работа 3</a>
+        <ul class = "menu_d">
+                <li><a href = "lab3/My FIrst Web-Page.html">Задание 1</a></li>
+                <li><a href = "lab3/My Second Web-Page.html">Задание 2</a></li>
+            </ul></li>
+        <li class = "menu_l center"><a href = "#">Лабораторная работа 4</a>
+        <ul class = "menu_d">
+                <li><a href = "lab4/zadanie1.html">Задание 1</a></li>
+                <li><a href = "lab4/zadanie2.html">Задание 2</a></li>
+                <li><a href = "lab4/zadanie3.html">Задание 3</a></li>
+                <li><a href = "lab4/zadanie4.1.html">Задание 4.1</a></li>
+                <li><a href = "lab4/zadanie4.2.html">Задание 4.2</a></li>
+                <li><a href = "lab4/zadanie4.3.html">Задание 4.3</a></li>
+                <li><a href = "lab4/My Second Web-Page.html">Конечная страница</a></li>
+            </ul></li>
+        <li class = "menu_l center"><a href = "#">Лабораторная работа 5</a>
+        <ul class = "menu_d">
+                <li><a href = "lab5/My FIrst Web-Page.html">Задание 1</a></li>
+                <li><a href = "lab5/My second Web-Page.html">Задание 2</a></li>
+            </ul></li>
+        <li class = "menu_l center"><a href = "#">Лабораторная работа 6</a>
+        <ul class = "menu_d">
+                <li><a href = "lab6/my first anim.html">Задание 1</a></li>
+                <li><a href = "lab6/my second anim.html">Задание 2</a></li>
+            </ul></li>
+     </ul>
+    </div>
+</BODY>
+</HTML>
